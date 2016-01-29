@@ -1,0 +1,31 @@
+html {
+	font-family: $helvetica;
+}
+
+h1 {
+	font-family: $comfortaa;
+	color: $yellow;
+}
+
+.border {
+	border: 1px solid $yellow;
+		p {
+			color: $grey;
+		}
+
+		@media only screen and (min-width: 30em) {
+			border-color: $blue;
+		}
+
+		@media only screen and (min-width: 60em) {
+			border-color: $red;
+		}
+}
+
+.primary-btn {
+	@include button($red);
+}
+
+ul {
+	@extend .border;
+}

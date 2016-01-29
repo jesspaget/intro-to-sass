@@ -1,0 +1,44 @@
+/*Imports */
+@import url(https://fonts.googleapis.com/css?family=Comfortaa:400,700,300);
+html {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-family: Comfortaa, cursive;
+  color: #FFE000;
+}
+
+.border, ul {
+  border: 1px solid #FFE000;
+}
+
+.border p, ul p {
+  color: #AAAAAA;
+}
+
+@media only screen and (min-width: 30em) {
+  .border, ul {
+    border-color: #BBEAF9;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  .border, ul {
+    border-color: #FF0000;
+  }
+}
+
+.primary-btn {
+  display: inline-block;
+  margin: 1em;
+  padding: .5em 1em;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #fff;
+  background: #FF0000;
+}
+
+.primary-btn:hover {
+  background-color: #990000;
+}
